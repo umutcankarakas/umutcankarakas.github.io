@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Umutcan Karakaş"
-  avatar           : "/assets/images/profile.JPEG"
+  avatar           : "assets\images\bio.JPEG"
   bio              : "Ph.D. student, Computer Engineering Department, ITU"
   location         : "Istanbul, Türkiye"
   email            :
