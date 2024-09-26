@@ -21,7 +21,7 @@ title                    : "Umutcan Karakaş"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Umutcan Karakaş"
-description              : "Ph.D. student, Computer Engineering Department, ITU\n-Senior .NET Developer, DefineX"
+description              : "Ph.D. student, Computer Engineering Department, ITU - Senior .NET Developer, DefineX"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Umutcan Karakaş"
   avatar           : "assets/images/bio.JPEG"
-  bio              : "-Ph.D. student, Computer Engineering Department, ITU\n-Senior .NET Developer, DefineX"
+  bio              : "Ph.D. student, Computer Engineering Department, ITU - Senior .NET Developer, DefineX"
   location         : "Istanbul, Türkiye"
   email            :
   links:
