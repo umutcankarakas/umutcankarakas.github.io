@@ -4,17 +4,10 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<br>
 
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
+<b>[Automated Fairness Testing with Representative Sampling](https://doi.org/10.1145/3617555.3617871)</b> <br>
+<b>Umutcan Karakaş</b>, Ayşe Tosun.<br>
+<i>PROMISE 2023: Proceedings of the 19th International Conference on Predictive Models and Data Analytics in Software Engineering</i>
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% include documents-collection.html entries=posts type=entries_layout %}
-</div>
 
-{% include paginator.html %}
