@@ -5,12 +5,14 @@ baseurl: ""
 
 author:
   name: "Umut Can Karakaş"
-  bio: "Yazar & Fotoğrafçı"
-  email: ""
+  bio: "Ph.D. öğrencisi, ITU Bilgisayar Müh. · Senior .NET Developer, DefineX"
+  email: "umutcankarakas@gmail.com"
+  location: "İstanbul, Türkiye"
 
 github_url: "https://github.com/umutcankarakas"
 github_username: "umutcankarakas"
 medium_url: "https://medium.com/@karakasu"
+linkedin_url: "https://www.linkedin.com/in/umutcankarakas/"
 # twitter_url: "https://twitter.com/umutcankarakas"  # Twitter varsa aç
 
 # Build settings

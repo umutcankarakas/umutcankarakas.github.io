@@ -4,21 +4,18 @@ title: Hakkımda
 permalink: /hakkimda/
 ---
 
-Merhaba! Ben Umut Can.
+Merhaba! Ben Umut Can Karakaş.
 
-Bu blog, merak ettiğim şeyleri yazdığım, gördüğüm güzel anları fotoğrafladığım kişisel bir alan.
+İstanbul'da yaşıyorum. Gündüzleri İTÜ Bilgisayar Mühendisliği'nde doktora yapıyor, DefineX'te Senior .NET Developer olarak çalışıyorum. Geri kalan zamanlarda merak ettiğim şeyleri yazıyor, fotoğraf çekiyorum.
 
-## Ne yazıyorum?
-
-Burada ağırlıklı olarak [konularını buraya ekle — teknoloji, edebiyat, seyahat, vb.] üzerine yazıyorum. Bazı yazılarım [Medium](https://medium.com)'da da yayınlanıyor.
+Bu blog, algoritmalar ve akışlar olmadan sadece benim sesimin olduğu bir yer.
 
 ## İletişim
 
-Benimle iletişime geçmek istersen:
-
+- **E-posta:** [umutcankarakas@gmail.com](mailto:umutcankarakas@gmail.com)
 - **GitHub:** [github.com/umutcankarakas](https://github.com/umutcankarakas)
+- **LinkedIn:** [linkedin.com/in/umutcankarakas](https://www.linkedin.com/in/umutcankarakas/)
 - **Medium:** [medium.com/@karakasu](https://medium.com/@karakasu)
-- **E-posta:** [e-posta adresin]
 
 ---
 
