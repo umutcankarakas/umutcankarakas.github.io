@@ -4,7 +4,7 @@ title: Hakkımda
 permalink: /hakkimda/
 ---
 
-Merhaba! Ben Umut Can Karakaş.
+Merhaba! Ben Umutcan Karakaş.
 
 İstanbul'da yaşıyorum. Gündüzleri İTÜ Bilgisayar Mühendisliği'nde doktora yapıyor, DefineX'te Senior .NET Developer olarak çalışıyorum. Geri kalan zamanlarda merak ettiğim şeyleri yazıyor, fotoğraf çekiyorum.
 

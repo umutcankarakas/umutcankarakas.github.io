@@ -1,10 +1,10 @@
-title: "Umut Can Karakaş"
+title: "Umutcan Karakaş"
 description: "Yazılar, fotoğraflar ve düşünceler."
 url: "https://umutcankarakas.github.io"
 baseurl: ""
 
 author:
-  name: "Umut Can Karakaş"
+  name: "Umutcan Karakaş"
   bio: "Ph.D. öğrencisi, ITU Bilgisayar Müh. · Senior .NET Developer, DefineX"
   email: "umutcankarakas@gmail.com"
   location: "İstanbul, Türkiye"
@@ -49,4 +49,4 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Umut Can Karakaş"
+      author: "Umutcan Karakaş"
