@@ -11,7 +11,7 @@ permalink: /fotograflar/
       <p class="page-hero-desc">Gözümden dünya.</p>
     </div>
 
-    {% assign photo_files = site.static_files | where_exp: "file", "file.path contains '/photos/'" | where_exp: "file", "file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.png' or file.extname == '.webp'" %}
+    {% assign photo_files = site.static_files | where_exp: "file", "file.path contains '/photos/'" %}
 
     {% if photo_files.size > 0 %}
     <div class="masonry-grid" id="gallery">
