@@ -1,0 +1,43 @@
+---
+layout: default
+title: Yazılar
+permalink: /yazilar/
+---
+
+<div class="posts-page">
+  <div class="container">
+    <div class="page-hero" style="text-align:left; padding-left:0;">
+      <h1 class="page-hero-title">Yazılar</h1>
+      <p class="page-hero-desc">Tüm yazılar — düşünceler, gözlemler, hikayeler.</p>
+    </div>
+
+    {% if site.posts.size > 0 %}
+    <div class="posts-grid">
+      {% for post in site.posts %}
+        {% include post-card.html post=post %}
+      {% endfor %}
+    </div>
+
+    {% if paginator.total_pages > 1 %}
+    <nav class="pagination">
+      {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">←</a>
+      {% endif %}
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+        <span class="current">{{ page }}</span>
+        {% else %}
+        <a href="{% if page == 1 %}{{ '/yazilar/' | relative_url }}{% else %}{{ site.paginate_path | replace: ':num', page | relative_url }}{% endif %}">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+      {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">→</a>
+      {% endif %}
+    </nav>
+    {% endif %}
+
+    {% else %}
+    <p style="color: var(--color-text-muted); padding: 2rem 0;">Henüz yazı yok. İlk yazını ekle!</p>
+    {% endif %}
+  </div>
+</div>

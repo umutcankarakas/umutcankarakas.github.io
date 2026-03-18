@@ -1,0 +1,66 @@
+---
+layout: default
+---
+<article class="post-full">
+  <div class="post-header">
+    <div class="container container--narrow">
+      {% if page.tags %}
+      <div class="post-tags">
+        {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+      <h1 class="post-title">{{ page.title }}</h1>
+      <div class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          {{ page.date | date: "%d %B %Y" }}
+        </time>
+        {% if page.read_time %}
+        <span class="sep">·</span>
+        <span class="read-time">{{ page.read_time }} dk okuma</span>
+        {% endif %}
+        {% if page.medium_url %}
+        <span class="sep">·</span>
+        <a href="{{ page.medium_url }}" target="_blank" rel="noopener" class="medium-link">Medium'da oku</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  {% if page.image %}
+  <div class="post-cover">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+  </div>
+  {% endif %}
+
+  <div class="container container--narrow">
+    <div class="post-content">
+      {{ content }}
+    </div>
+
+    {% if page.tags %}
+    <div class="post-footer-tags">
+      <strong>Etiketler:</strong>
+      {% for tag in page.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <nav class="post-nav">
+      {% if page.previous.url %}
+      <a href="{{ page.previous.url | relative_url }}" class="post-nav-prev">
+        <span class="post-nav-label">← Önceki</span>
+        <span class="post-nav-title">{{ page.previous.title }}</span>
+      </a>
+      {% endif %}
+      {% if page.next.url %}
+      <a href="{{ page.next.url | relative_url }}" class="post-nav-next">
+        <span class="post-nav-label">Sonraki →</span>
+        <span class="post-nav-title">{{ page.next.title }}</span>
+      </a>
+      {% endif %}
+    </nav>
+  </div>
+</article>
